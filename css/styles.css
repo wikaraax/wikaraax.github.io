@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #15171B;
+}
+/* Navigation */ 
+
+#masterheading {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 9999;
+}
+
+#masterheading .microheading {
+    width: 100%;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#masterheading .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+#masterheading .logo {
+    width: 250px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+#masterheading .menubar {
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-right: 40px;
+    margin-top: 5px;
+    opacity: 0.8;
+    text-decoration: none;
+    color: #ffff;
+}
+
+#masterheading a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#masterheading .subNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#Homescreen {
+    width: 100%;
+    height: 75vh;
+    margin-bottom: -90px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+#Homescreen .HomescreenBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+#Homescreen .Homeimg {
+    height: 100%;
+    object-fit: cover;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+#Homescreen .HomepageContainer {
+    height: 100%;
+    width: fit-content;
+    max-width: 60%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+} 
+
+#Homescreen .ContainerText {
+    font-size: 60px;
+    line-height: 113%;
+    font-family: 'Arvo', serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: #ffffffee;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #000000
+}
+
+#Homescreen .subContainertext {
+    font-family: 'Newsreader', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff90;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#Homescreen .HomescreenBar {
+    width: 80px;
+    height: 3px;
+    min-height: 3px;
+    background-color: #FF6046;
+    border-radius: 1px;
+}
+
+#Homescreen .rootnavSteam {
+    border-radius: 6px;
+    border: 3px solid #ffffff90;
+    box-shadow: 0px 0px 5px black;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#Homescreen .navSteam {
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#Homescreen .textSteam {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Homescreen a{
+    text-decoration: none;
+}
+
+/*Home Screen News Section */
+
+#HomepageNews {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+    position: relative;
+    min-height: 308px;
+    margin-bottom: -150px;
+    z-index: 100;
+}
+
+#HomepageNews .News{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#HomepageNews .subNews {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 2px 0px;
+    margin-right: 20px;
+    font-family: 'Newsreader', serif;
+}
+
+#HomepageNews .newsBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#HomepageNews .blockHome img {
+    width: 250px;
+    height: 280px;
+    margin: 15px;
+    justify-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+/*Home Screen SubPage Section */
+
+#HomepageSub {
+    width: 100%;
+    min-height: 764px;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+#HomepageSub .Sub1{
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+#HomepageSub .Subimage{
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#HomepageSub .rootsubText{
+    width: 100%;
+    margin: 0 auto;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    z-index: 5;
+}
+
+#HomepageSub .subText{
+    opacity: 1;
+    transform: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#HomepageSub .subText span{
+    font-size: 70px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height: 105%;
+    font-family: 'Arvo', serif;
+}
+
+#HomepageSub .subHeading{
+    text-align: center;
+    margin-top: 30px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: #E2DACE;
+    font-size: 26px;
+    line-height: 115%;
+    font-weight: 100;
+    font-family: 'Newsreader', serif;
+}
+
+#HomepageSub .subButton{
+    border: 3px solid #ffffff50;
+    padding: 15px 25px;
+    margin: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+#HomepageSub .Button {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Newsreader', serif;
+}
+
+/* Footer */
+
+#rootfooter {
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+    padding: 30px 100px;
+    background-color: #000000;
+}
+
+#rootfooter .rootfooterimg{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#rootfooter .footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    padding: 0 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#rootfooter .footer a{
+    color: blue;
+    opacity: 0.9;
+    text-decoration: none;
+}
