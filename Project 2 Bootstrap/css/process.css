@@ -1,0 +1,37 @@
+#header{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+#jumbotron {
+    color: white;
+    background-color: black;
+}
+
+.card-text{
+    color: white;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+}
+
+/*Footer*/
+.footer {
+    position: relative;
+    padding: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
+
+ .footer p{
+    font-size: 12px;
+ }

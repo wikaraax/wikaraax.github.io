@@ -1,0 +1,32 @@
+.fw-dark {
+    color: white;
+}
+
+#display{
+    background-image: url(../img/billiard.JPG);
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.card-text{
+    color: white;
+}
+
+.icon {
+    text-decoration: none;
+    color: white;
+}
+/*Footer*/
+.footer {
+    position: relative;
+    padding: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
+
+ .footer p{
+    font-size: 12px;
+ }
